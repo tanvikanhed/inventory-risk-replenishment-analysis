@@ -49,8 +49,17 @@ This project analyzes retail inventory and sales data to identify store–produc
 - Inventory coverage is based on historical averages and does not guarantee stockout predictions.
 - Forecast gaps are descriptive comparisons, not formal forecast-accuracy measurements.
 
-## Data Source
-Retail Store Inventory Forecasting Dataset, sourced from Kaggle. Please refer to the original dataset page and its license before redistributing the data.
+  ## Data Source & License
+
+- **Dataset:** Retail Store Inventory Forecasting Dataset
+- **Source:** [Kaggle — Retail Store Inventory Forecasting Dataset](https://www.kaggle.com/datasets/anirudhchauhan/retail-store-inventory-forecasting-dataset)
+- **Dataset License:** [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)
+
+The dataset is dedicated to the public domain under CC0 1.0, as indicated by its license information. It is used in this project for educational data analysis, inventory coverage estimation, and replenishment prioritization.
+
+**Disclaimer:** This is an independent educational project. Dataset attribution does not imply endorsement by the dataset author.
+
+
 
 ## Disclaimer
 This is an educational data analytics project demonstrating data cleaning, exploratory analysis, KPI calculation, visualization, and rule-based inventory prioritization.
