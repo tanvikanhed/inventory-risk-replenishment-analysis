@@ -1,0 +1,40 @@
+
+INVENTORY RISK & REPLENISHMENT PRIORITIZATION ANALYSIS
+=====================================================
+
+1. PROJECT OBJECTIVE
+Analyze retail inventory and sales data to identify store-product
+combinations with potentially low inventory coverage.
+
+2. DATASET OVERVIEW
+Total daily records: 73100
+Unique stores: 5
+Unique products: 20
+Dataset columns: 18
+
+3. KEY METRICS
+Average units sold per record: 136.46
+Average inventory per record: 274.47
+Average demand forecast per record: 141.49
+
+4. REPLENISHMENT PRIORITIES
+High priority (<3 estimated coverage days): 500
+Medium priority (3 to <7 days): 0
+Low priority (>=7 days): 0
+
+5. RECOMMENDATIONS
+- Review low-coverage combinations first.
+- Check supplier lead times before placing replenishment orders.
+- Monitor sales and inventory regularly.
+- Investigate products where average sales differ substantially from forecasts.
+
+6. LIMITATIONS
+- The dataset is synthetic and does not represent a real retailer.
+- Priority thresholds are illustrative assumptions.
+- Inventory coverage uses historical average sales and is not a guaranteed
+  stockout prediction.
+- Further analysis should consider recent sales, supplier lead times,
+  promotions, and formal forecast-accuracy metrics.
+
+TOOLS
+Python, Pandas, NumPy, Matplotlib, Seaborn, Google Colab
